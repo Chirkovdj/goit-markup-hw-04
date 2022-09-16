@@ -316,7 +316,8 @@ h1{
     color: #AFB1B8;
 }
 
-.soicial-icon-link:hover{
+.soicial-icon-link:hover,
+.soicial-icon-link:focus{
     background-color: var(--accent-color);
     color: #ffffff;
 }
@@ -494,7 +495,8 @@ footer {
     border-radius: 50%;
 }
 
-.footer-list-item:hover{
+.footer-list-item:hover,
+.footer-list-item:focus{
     background-color: var(--accent-color);
 }
 
@@ -525,7 +527,8 @@ footer {
     border-radius: 4px;
 }
 
-.client-card:hover{
+.client-card:hover,
+.client-card:focus{
     border: 1px solid var(--accent-color);
     border-radius: 4px;
 }
@@ -590,9 +593,7 @@ footer {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: var(--title-text-color);
-    margin: 0;
-    padding: 0;
+    text-align: left;
 }
 
 .card p{

@@ -488,15 +488,15 @@ footer {
     justify-content: space-between;
 }
 
-.footer-list-item{
+.footer-icon-link{
     background-color: rgba(255, 255, 255, 0.1);
     width: 44px;
     height: 44px;
     border-radius: 50%;
 }
 
-.footer-list-item:hover,
-.footer-list-item:focus{
+.footer-icon-link:hover,
+.footer-icon-link:focus{
     background-color: var(--accent-color);
 }
 
@@ -522,13 +522,8 @@ footer {
     margin-top: 50px;
 }
 
-.client-card{
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
-}
-
-.client-card:hover,
-.client-card:focus{
+.client-card-item:hover,
+.client-card-item:focus{
     border: 1px solid var(--accent-color);
     border-radius: 4px;
 }
@@ -540,6 +535,8 @@ footer {
     width: 170px;
     height: 92px;
     color: #AFB1B8;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
 }
 
 

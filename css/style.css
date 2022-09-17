@@ -526,6 +526,7 @@ footer {
 .client-card-item:focus{
     border: 1px solid var(--accent-color);
     border-radius: 4px;
+    color: var(--accent-color);
 }
 
 .client-card-item{
